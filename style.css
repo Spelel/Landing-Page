@@ -108,6 +108,7 @@ button {
     justify-content: center;
     gap: 40px;
     padding: 5px;
+    margin-bottom: 125px;
   }
 
   .text {
@@ -116,4 +117,49 @@ button {
     font-size: 22px;
     filter: contrast(10%);
   }
+
+  .quote {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #e5e7eb;
+    padding: 100px;
+  }
+
+  .t1 {
+    font-size: 36px;
+    font-style: italic;
+    color: #1F2937;
+    width: 814px;
+  }
+
+  .t2 {
+    font-weight: bold;
+    font-size: 26px;
+    color: #1F2937;
+    text-align: center;
+    text-indent: 500px;  
+  }
+
+  .call {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 150px;
+  }
+
+  .bb {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #3882f6;
+    width: 900px;
+    height: 200px;
+    border-radius: 8px;
+    color: #f9faf8;
+  }
+
+
   
