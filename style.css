@@ -151,15 +151,32 @@ button {
 
   .bb {
     display: flex;
-    flex-direction: column;
-    justify-content: center;
+    flex-direction: row;
+    justify-content: space-around;
     align-items: center;
     background-color: #3882f6;
-    width: 900px;
-    height: 200px;
+    width: 1000px;
+    height: 130px;
     border-radius: 8px;
     color: #f9faf8;
   }
 
+  .st {
+    font-size: small;
+  }
+
+  .bq {
+    border: 2px solid #f9faf8;
+    font-weight: bolder;
+  }
+
+  .footer {
+    height: 72px;
+    background: #1F2937;
+    color: #f9faf8;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
 
   
